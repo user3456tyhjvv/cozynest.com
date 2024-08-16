@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .emailer{
+            text-align: center;
+        }
+.miner{
+    background-color: gray;
+}
+.lab2 {
+    width: 100%;
+    text-align: left;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+#signup-email{
+    width: 100%;
+}
+.input-field {
+    border: 2px solid #d01616;
+    border-radius: 5px;
+    padding: 10px;
+    width: 90%;
+    margin: 10px 0;
+    font-size: 16px;
+}
+.loginbt {
+    background-color: #d01616;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 18px;
+    width: 100%;
+    margin-top: 20px;
+    transition: background-color 0.3s ease;
+}
+
+.loginbt:hover {
+    background-color: #b01414;
+}
+footer {
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.7);
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    position: absolute;
+    bottom: 0;
+}
+
+.footer-link {
+    color: white;
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+.footer-link:hover {
+    text-decoration: underline;
+}
+.blog-header {
+    display: flex;
+    flex-direction: row;
+    margin-top: 30px;
+    height: 70px;
+    border: 1px solid gray;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+    background-color: white;
+    padding: 10px;
+}
+.left-section {
+    display: flex;
+    align-items: center;
+}
+.link-secondary:hover{
+   color:#d01616;
+   text-decoration: none;
+}
+.link-secondary{
+    cursor: pointer;
+    color: black;
+}
+    </style>
+</head>
+<body class="miner">
+    <header class="blog-header">
+        <div class="left-section">
+            <a class="link-secondary" href="signup.html" id="link-subscribe" >Home</a>
+        </div>
+    </header>
+    <div class="emailer">
+<h3>Please input your accoount email.you will receive an email with your password</h3>
+  <form>
+    <label class="lab2">Email:
+        <input type="email" name="email" id="signup-email" required placeholder="Email" class="input-field">
+    </label>
+    <button type="submit" id="signup-btn" class="loginbt "onclick=" alert('An email has been sent to your inbox');">submit</button>
+    </form>
+
+    </div>
+    <footer>
+        <a href="contact.html" class="footer-link">Contact Us</a> | 
+        <a href="#" onclick="alert('has been sent to yor email!')" class="footer-link">Privacy Policy</a> | 
+        <span>All Rights Reserved</span>
+    </footer>
+</body>
+</html>

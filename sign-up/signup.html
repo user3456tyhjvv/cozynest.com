@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign Up - CozyNest</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <img src="logo/logo.jpeg" class="logo" alt="CozyNest Logo">
+    
+    <div class="container">
+        <div class="header">
+            <nav>
+                <ul>
+                    <li class="dropdown">
+                        <a href="javascript:void(0);" class="dropbtn">Our Products</a>
+                        <div class="dropdown-content">
+                            <a href="#">Beddings</a>
+                            <a href="#">Furniture</a>
+                            <a href="#">Curtains</a>
+                            <a href="#">Clothings</a>
+                            <a href="#">Shoes</a>
+                        </div>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+        
+        <form id="login-form">
+            <h3>Welcome to CozyNest!</h3>
+            <div class="cont1">
+                <label class="lab1">Email:
+                    <input type="email" name="user-email" id="login-email" required placeholder="Email" class="input-field">
+                </label>
+                <label class="lab1">Password:
+                    <input type="password" name="password" id="login-password" required placeholder="Password" class="input-field">
+                </label>
+                <div class="parent2">
+                    <label for="keep-me-signin">
+                        <input type="checkbox" class="check" id="keep-me-signed-in"> Keep me signed in
+                    </label>
+                    <a href="forget.html" class="nav">Forgot your password?</a>
+                </div>
+                <button type="submit" id="login-btn" class="loginbt">Login</button>
+                <a href="javascript:void(0);" class="link1" id="regiClick" onclick="showRegister()">Don't have an account?</a>
+            </div>
+        </form>
+        
+        <form id="register-form" style="display: none;">
+            <h3>Register at CozyNest!</h3>
+            <div class="cont2">
+                <label class="lab2">Username:
+                    <input type="text" name="username" id="signup-username" required placeholder="Username" class="input-field">
+                </label>
+                <label class="lab2">Email:
+                    <input type="email" name="email" id="signup-email" required placeholder="Email" class="input-field">
+                </label>
+                <label class="lab3">Password:
+                    <input type="password" name="password" id="signup-password" required placeholder="Password" class="input-field">
+                </label>
+                <label class="lab4">Phone:
+                    <input type="text" name="phone" id="signup-phone" required placeholder="Phone Number +" class="input-field">
+                </label>
+                <button type="submit" id="signup-btn" class="loginbt">Sign Up</button>
+                <a href="javascript:void(0);" class="link1" onclick="showLogin()">Already have an account?</a>
+            </div>
+        </form>
+    </div>
+
+    <footer>
+        <a href="contact.html" class="footer-link">Contact Us</a> | 
+        <a href="privacy-policy.html" class="footer-link">Privacy Policy</a> | 
+        <span>All Rights Reserved</span>
+    </footer>
+
+    <script src="script1.js"></script>
+</body>
+</html>

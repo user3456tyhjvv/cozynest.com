@@ -1,0 +1,132 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
+    
+}
+.back-button{
+    border-radius:5px;
+    font-size:20px;
+    background-color: aquamarine;
+    text-decoration: dotted;
+    margin-left: 10px;
+}
+
+.contact {
+    padding: 130px 0;
+}
+
+.contact .heading {
+    text-align: center;
+    margin-bottom: 60px;
+}
+
+.contact .heading h2 {
+    font-size: 30px;
+    font-weight: 700;
+    margin: 0;
+    padding: 0;
+}
+
+.contact .heading h2 span {
+    color: #ff9100;
+}
+
+.contact .heading p {
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 1.7;
+    color: #999999;
+    margin: 20px 0;
+    padding: 0;
+}
+
+.contact .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+.contact .row {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.contact .col-md-5, .contact .col-md-7 {
+    flex: 1;
+    min-width: 300px;
+}
+
+.contact .form-control {
+    padding: 15px;
+    font-size: 13px;
+    margin-bottom: 10px;
+    background: #f9f9f9;
+    border: 0;
+    border-radius: 15px;
+    width: 100%;
+    margin-right: 30px;
+}
+
+.contact button.btn {
+    padding: 10px;
+    border-radius: 10px;
+    font-size: 15px;
+    background: #ff9100;
+    color: #ffffff;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+}
+
+.contact .title h3 {
+    font-size: 18px;
+    font-weight: 600;
+    margin: 0 0 20px;
+}
+
+.contact .title p {
+    font-size: 14px;
+    font-weight: 400;
+    color: #999;
+    line-height: 1.6;
+    margin: 0 0 40px;
+}
+
+.contact .content .info {
+    display: flex;
+    align-items: center;
+    margin-top: 30px;
+}
+
+.contact .content .info i {
+    font-size: 30px;
+    color: #02434b;
+    margin-right: 20px;
+}
+
+.contact .content .info h4 {
+    font-size: 15px;
+    line-height: 1.4;
+}
+
+.contact .content .info h4 span {
+    font-size: 13px;
+    font-weight: 300;
+    color: #999999;
+}
+
+.contact .content .info a {
+    color: #02434b;
+    text-decoration: none;
+    margin-right: 10px;
+}
+
+.contact .content .info a:hover {
+    text-decoration: underline;
+}
+#form-control1{
+    margin-left: 0px;
+}
